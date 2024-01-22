@@ -16,13 +16,9 @@
 void	ft_is_negative(int n)
 {
 	if (n >= 0)
-	{
 		n = 'P';
-	}
 	else
-	{
 		n = 'N';
-	}
 	write(1, &n, 1);
 }
 /*
