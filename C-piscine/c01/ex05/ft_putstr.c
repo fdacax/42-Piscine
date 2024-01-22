@@ -17,7 +17,7 @@ void	ft_putstr(char *str)
 {
 	while (*str)
 	{
-		write(1, &*str, 1);
+		write(1, str, 1);
 		str++;
 	}
 }
@@ -25,10 +25,8 @@ void	ft_putstr(char *str)
 /*
 int main(void)
 {
-    char nome[] = "I love my evaluator";
-    
-
-    ft_putstr(nome);
+    char *c = "Test";
+    ft_putstr(c);
     return (0);
 }
 */
